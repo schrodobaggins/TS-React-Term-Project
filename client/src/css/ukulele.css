@@ -1,0 +1,71 @@
+.ukulele {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 360px) {
+    .fret {
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: brown;
+        border-bottom: 5px solid black;
+    }
+
+    .fret-strings {
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: brown;
+        border-bottom: 5px solid gold;
+    }
+}
+
+@media only screen and (min-width: 1028px) {
+    .fret {
+        position: relative;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: brown;
+        border-bottom: 5px solid black;
+    }
+
+    .fret-strings {
+        position: relative;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: brown;
+        border-bottom: 5px solid gold;
+    }
+}
+
+.ukulele-fret {
+    background-color:rgb(162, 162, 162);
+    width: 8px;
+    height: 50px;
+}
+
+.circumference-visualizer {
+    height: 100%;
+}
+
+.fret-marker {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightgrey;
+}

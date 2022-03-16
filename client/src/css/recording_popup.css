@@ -1,0 +1,118 @@
+.modal {
+    position: relative;
+    box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 20%);
+    border-radius: 5px;
+    border: 5px rgb(191, 191, 191);
+    background-color: white;
+}
+
+.close-modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: 0;
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    transition: 100ms ease-in;
+    color: gray;
+}
+
+.recording-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-fieldset {
+    border: 0;
+    text-align: center;
+}
+
+.form-fieldset input {
+    background: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    padding: 10px 10px 5px 10px;
+    width: 95%;
+    border-bottom: 1px solid rgb(197, 196, 196);
+    font-size: 12px;
+}
+
+.form-fieldset input:hover {
+    transition: 100ms ease-in;
+    border-bottom: 2px solid rgb(68, 68, 68);
+}
+
+.form-fieldset input:focus {
+    outline: none;
+}
+
+.form-fieldset-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-fieldset-label h3 {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.form-fieldset-label p {
+    font-size: 14px;
+    margin: 10px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    lightgray;
+    font-size: 12px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    lightgray;
+    font-size: 12px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    lightgray;
+    font-size: 12px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    lightgray;
+    font-size: 12px;
+}
+
+.form-button {
+    width: 75px;
+    font-size: 14px;
+    border-style: groove;
+    box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 20%);
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+    margin: 15px 10px 10px 10px;
+    background: 0;
+    color: black;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    transition: 100ms ease-in;
+    box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 50%);
+    color: gray;
+}
+
+.form-submission-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
